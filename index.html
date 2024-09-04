@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+  <h1 id="title">Customer Survey Form</h1>
+  <p id="description">Improving our customer service.</p>
+  <div id="form-container">
+  <form id="survey-form">
+    <label id="name-label">Name</label>
+    <input id="name" type="text" placeholder="Enter your name" required></input>
+  <label id="email-label">Email</label>
+  <input id="email" type="email" placeholder="Enter your email" required></input>
+   <label id="number-label">Age</label>
+  <input type="number" id="number" name="age" placeholder="Enter your age" min="13" max="70" required>
+  <label>Occupation</label>
+  <select id="dropdown">
+    <option>(sellect one)</option>
+    <option>Student</option>
+    <option>Unemployed</option>
+    <option>Employed</option>
+    <option>Retired</option>
+  </select>
+  <div id="smaller-inputs">
+<hr>
+<labelid="radio-label">Would you recommend our services?</label><br>
+  <input id="yes" type="radio" value="yes" name="yes"></input>
+  <label for="yes" class="small">Yes</lable><label> 
+  <input id="no" type="radio" value="no" name="yes"></input>
+<label for="no" class="small">No</lable>
+<label for="checkbox">What do you find more interesting?</label>
+<input type="checkbox" value="checkbox"></input>
+<label for="html" class="small">HTML</label><br>
+<input type="checkbox" Value="checkbox"></input>
+<label for="css" class="small">CSS</label>
+<hr>
+<label>Any suggestions or comments?</label>
+</div>
+<textarea placeholder="I would like to see more of..."></textarea>
+  <button type="submit" id="submit">Submit</button>
+  </form>
+  </div>
+  </body>
+
+</html>

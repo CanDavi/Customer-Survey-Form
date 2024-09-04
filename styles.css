@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+  text-align: center;
+  color: orange;
+  padding: 20px;
+  background-image: url
+}
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: sans-serif;
+}
+p{
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 15px; 
+}
+#survey-form{
+  background-color: rgb(68, 37, 68);
+  text-align: left;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 3px solid orange; 
+  padding: 20px;
+  border-radius: 5px; 
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 500px;
+  font-family: sans-serif;
+}
+label{
+  display: block;
+  margin: 5px;
+}
+input{
+  width: 90%;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 5px;
+}
+select{
+  width: 90%;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+#smaller-inputs input{
+   width: 15px;
+}
+#smaller-inputs .small{
+  display: inline;
+}
+textarea{
+  width: 90%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 5px;
+}
+#submit{
+  background-color: green;
+  color: white;
+  width: 30%;
+  margin: 15px 0;
+  padding: 5px 0 5px 0;
+  font-size: 15px;
+  }
+  button {
+  display: inline-block;
+  border-radius: 10px;
+
+}
+hr {
+  border: none;
+  border-top: 2px solid rgb(20, 20, 20); 
+  margin: 20px 0; 
+
+
